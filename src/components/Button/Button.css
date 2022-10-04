@@ -1,0 +1,29 @@
+.nav-button {
+    padding: 8px 8px;
+    width: 125px;
+    border: 2px solid #0c285e;
+    background-color: crimson;
+    box-shadow: 0 5px 0 #002da7;
+    color: white;
+    border-radius: 2px;
+    font-family: 'Rubik', 'Arial', sans-serif;
+    outline: none;
+}
+
+.nav-button:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.nav-button:hover {
+    cursor: pointer;
+}
+
+.nav-button:disabled {
+    background-color: darkgray;
+    cursor: not-allowed;
+}
+
+.nav-button + .nav-button {
+    margin-left: 8px;
+}
